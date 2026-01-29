@@ -1,0 +1,22 @@
+# Build
+/target/
+/build/
+/dist/
+
+# Logs
+logs/
+*.log
+
+# Machine Learning
+ML/data/
+ML/tmp/
+*.onnx
+
+# Samples / malware
+samples/
+sandbox/
+
+# Env & IDE
+.env
+.vscode/
+.idea/
