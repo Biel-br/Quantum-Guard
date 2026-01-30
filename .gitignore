@@ -20,3 +20,8 @@ sandbox/
 .env
 .vscode/
 .idea/
+
+
+# Added by cargo
+
+/target
