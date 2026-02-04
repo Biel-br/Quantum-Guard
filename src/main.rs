@@ -1,4 +1,4 @@
-mod engine; // ← correto, aponta para a pasta engine/
+mod engine; //aponta para a pasta engine/
 
 use std::collections::HashSet;
 use walkdir::WalkDir;
