@@ -1,6 +1,10 @@
 [package]
 name = "Project_Quantum_Guard"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
 
 [dependencies]
+walkdir = "2"
+memmap2 = "0.9"
+blake3 = "1"
+windows = { version = "0.52", features = ["Win32_Storage_FileSystem", "Win32_Foundation"] }
